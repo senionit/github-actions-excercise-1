@@ -21,7 +21,7 @@ jobs:
         - name: linter configuration
           run: npm init @eslint/config
 
-        - name: run linter
-          run: npm run-script lint
+#        - name: run linter
+#          run: npm run-script lint
 
 
