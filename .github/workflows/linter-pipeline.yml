@@ -16,10 +16,10 @@ jobs:
             node-version: 18
         
         - name: prepare application
-          run: npm install
+          run: npm ci
 
-        - name: linter configuration
-          run: npm init @eslint/config
+        - name: running configuration
+          run: npm test
 
 #        - name: run linter
 #          run: npm run-script lint
