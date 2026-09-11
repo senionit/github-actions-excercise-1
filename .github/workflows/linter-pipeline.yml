@@ -18,8 +18,8 @@ jobs:
         - name: prepare application
           run: npm ci
 
-        - name: running configuration
-          run: npm test
+        - name: running linting
+          run: npm run lint
 
 #        - name: run linter
 #          run: npm run-script lint
