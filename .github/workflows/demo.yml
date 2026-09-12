@@ -35,7 +35,7 @@ jobs:
           run: npm run build
 
         - name: Upload artefacts
-          uses: actions/upload-artefact@v3
+          uses: actions/upload-artifact@v3
           with:
             name: dist-files
             path: dist
